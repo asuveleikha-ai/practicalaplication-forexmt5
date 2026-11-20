@@ -22,7 +22,9 @@ def check_password():
 check_password()
 
 st.set_page_config(page_title="ForexMT5 - Market Intelligent", layout="wide")
+st.caption("AICHALIVERET COMPANY — AICHALIVERET BY META.AI")
 st.title("🛡️ PRACTICAL APPLICATION GAME - FOREX MT5")
+st.caption("Diselenggarakan oleh aichaliveret company — aichaliveret by meta.ai. Platform observasi dan edukasi Market Intelligent.")
 st.caption("Market Intelligent | PRIVATE DEMO | Akurat sebelum cepat, hati-hati sebelum ramai. Observasi dulu, baru beritakan.")
 st.warning("⚠️ SIMULASI - VIRTUAL MONEY. Bukan sinyal trading, bukan ajakan trading. Bukan nasihat keuangan.")
 
@@ -111,4 +113,4 @@ with tab3:
         st.success(f"Keputusan tersimpan: {keputusan}. Keputusan ini yang diberitakan melalui Podcast dan kanal Pangsa Pasar.")
 
 st.divider()
-st.caption("Market Intelligent: Akurat sebelum cepat, hati-hati sebelum ramai. Observasi dulu, baru beritakan.")
+st.caption("aichaliveret company — aichaliveret by meta.ai | Market Intelligent: Akurat sebelum cepat, hati-hati sebelum ramai. Observasi dulu, baru beritakan.")
