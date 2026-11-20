@@ -49,66 +49,66 @@ with tab1:
         st.write("**Chart GBPUSD H1 - Grafik Chain**")
         st.line_chart([1.3281,1.3260,1.3220,1.3190,1.3210,1.3240,1.3265,1.32305])
         st.info("OBSERVASI - GBPUSD H1 | Stochastic oversold 19.77 | Potensi rebound ke 1.32650, jika jebol 1.31900 batal. | Keyakinan 68% - Observasi, bukan ajakan trading.")
-        st.write("**Checklist Rakit Alat (sebelum siaran):**")
+        st.write("**Checklist Validasi Analisis (sebelum siaran):**")
         st.checkbox("Teknikal sudah dibaca - trend, support/resistance, indikator", value=True)
         st.checkbox("Fundamental sudah dicek - jam & impact Forex Factory")
         st.checkbox("Politik sudah disaring - fakta vs opini vs rumor")
-        st.checkbox("Festival sudah dicek - Diwali / Natal / Imlek / Lebaran / Isra Miraj")
+        st.checkbox("Kalender perayaan sudah diverifikasi - Diwali / Natal / Imlek / Lebaran / Isra Miraj")
 
-# ============ TAB 2 - CLASSIC JADI PODCAST ============
+# ============ TAB 2 - PODCAST INTELLIGENT MARKET ============
 with tab2:
-    st.subheader("🎙️ PODCAST INTELLIGENT MARKET - Halaman Siaran")
-    st.write("Ini panggung kita. Bukan lagi sekadar karakter pengeluh / gembira. Di sini kita bawakan acara, biar pengguna - pelaku perdagangan & masyarakat luas - gampang baca beritanya, rapih dan terpisah dari bengkel Neural.")
-    st.write("**Format Acara (setiap episode 10-15 menit):**")
-    st.write("1. **Pembuka (2 menit):** Halo, ini Market Intelligent. Hari ini kita observasi apa?")
-    st.write("2. **Berita Utama (5 menit):** 1 berita fundamental + 1 teknikal + 1 politik. Sebut sumbernya: Forex Factory + MT5.")
-    st.write("3. **Dimensi Perilaku dan Kalender Perayaan (2 menit):** Pembahasan perilaku pasar dalam konteks perayaan keagamaan dan musim — Diwali dan musim pernikahan di India, Natal, Imlek, Ramadan, Idul Fitri, Isra Miraj, dan Idul Adha.")
-    st.write("4. **Penutup + Keputusan (2 menit):** Jadi kesimpulan kita apa? Observasi dulu, baru putuskan. Bukan ajakan trading.")
+    st.subheader("🎙️ PODCAST INTELLIGENT MARKET — Siaran Informasi Bisnis")
+    st.write("Podcast Intelligent Market adalah program siaran edukasi Market Intelligent. Kami membawakan hasil observasi perdagangan derivatif bursa berjangka — foreign exchange — dalam format yang terstruktur, profesional, dan mudah dipahami oleh pelaku perdagangan, kalangan profesional, akademisi, serta masyarakat luas.")
+    st.write("**Fokus Siaran — Empat Pilar Informasi:**")
+    st.write("1. **Informasi Fundamental — Forex Factory.** Kalender ekonomi, kebijakan bank sentral, indikator makroekonomi: CPI, data ketenagakerjaan, suku bunga, risalah rapat bank sentral. Setiap pernyataan disertai sumber, waktu rilis, dan konteks.")
+    st.write("2. **Informasi Teknikal — Grafik Chain MT5 / MT4.** Struktur harga, tren, level support dan resistance, serta konfirmasi indikator: Moving Average, RSI, MACD, Bollinger Bands, Fibonacci, dan Stochastic. Disampaikan skenario utama, skenario alternatif, dan level invalidasi.")
+    st.write("3. **Dinamika Kebijakan dan Politik Internasional.** Pernyataan pejabat bank sentral, dinamika pemilu, kebijakan perdagangan, sanksi, dan geopolitik — dengan pemisahan tegas antara fakta yang terverifikasi, interpretasi analis, dan opini pasar.")
+    st.write("4. **Efek Perayaan Hari Raya Umat Beragama — Khususnya Pergerakan Logam Mulia.** Analisis musiman atas Diwali dan musim pernikahan di India, Natal, Imlek, Ramadan, Idul Fitri, Isra Miraj, dan Idul Adha — terhadap likuiditas, permintaan emas fisik (XAUUSD), pergerakan USD/INR, dan sentimen pasar.")
     st.divider()
-    st.write("**Episode Terbaru - Contoh Script:**")
-    st.text_area("Script Episode - Copy untuk dibacakan / rekam", value="EPISODE: GBPUSD Oversold + Jelang Natal\n\nHalo, ini Market Intelligent. Hari ini GBPUSD H1 di 1.32305, Stochastic 19.77 oversold. Artinya habis dibanting, ada potensi mantul ke 1.32650. Tapi kalau jebol 1.31900, batal.\n\nFundamental: malam ini ada pidato FOMC. Teknikal: oversold. Politik: netral. Festival: Natal dekat, likuiditas menipis.\n\nKesimpulan: observasi dulu, jangan FOMO. Keyakinan 68%, bukan sinyal pasti.", height=160)
-    st.write("**Segmen Tetap Podcast:**")
-    st.write("- 🎧 **Bengkel ke Panggung:** Apa yang kita rakit di Neural, kita ceritakan di sini dengan bahasa awam")
-    st.write("- 💬 **Tanya Jawab Pendengar:** Pertanyaan dari WhatsApp / Email / Sosmed, dijawab hati-hati")
-    st.write("- 📖 **Kamus Market:** Setiap episode jelaskan 1 istilah: Stochastic, CPI, Spread, dll. Biar masyarakat luas ikut paham")
-    st.write("**Tombol untuk Host:**")
-    if st.button("Salin Script Episode Hari Ini"):
-        st.success("Script siap dibacakan / direkam. Upload ke WhatsApp / YouTube / Spotify / TikTok setelah observasi matang.")
+    st.write("**Format Siaran — Setiap Episode**")
+    st.write("Pembuka — Konteks Pasar (2 menit) | Analisis Fundamental (4 menit) | Analisis Teknikal (4 menit) | Dinamika Kebijakan dan Politik Internasional (3 menit) | Efek Perayaan dan Logam Mulia (2 menit) | Penutup — Sintesis dan Prinsip Keputusan (2 menit)")
+    st.write("**Contoh Naskah Episode — Bahasa Siaran Bisnis**")
+    st.text_area("Naskah Episode — Siap dibacakan / direkam", value="Selamat datang di Podcast Intelligent Market. Pada episode kali ini, kami mengamati GBPUSD pada kerangka waktu H1 di level 1.32305. Indikator Stochastic (5,3,3) berada pada level 19.77, yang mengindikasikan kondisi jenuh jual. Skenario utama kami adalah potensi pemulihan menuju 1.32650. Skenario ini akan gugur apabila harga menembus ke bawah 1.31900. Tingkat keyakinan kami adalah 68 persen.\n\nDari sisi fundamental, kalender Forex Factory mencatat agenda pidato pejabat bank sentral. Dari sisi teknikal, konfirmasi indikator masih bersifat terbatas. Dari sisi kebijakan, tidak terdapat perubahan struktural yang signifikan. Dari sisi musiman, menjelang Natal, likuiditas pasar Barat cenderung menipis dan spread melebar.\n\nKhususnya pada logam mulia, permintaan emas fisik di India pada musim Diwali dan musim pernikahan secara historis meningkatkan volatilitas XAUUSD. Oleh karena itu, kami mengajak pendengar untuk melakukan observasi terlebih dahulu, memvalidasi dengan manajemen risiko masing-masing, dan tidak mengambil keputusan berdasarkan satu sumber semata.", height=220)
+    st.write("**Standar Etika Siaran**")
+    st.write("Berbasis sumber • Terukur • Jujur mengenai ketidakpastian • Tidak sensasional • Menghormati audiens sebagai mitra yang cerdas dan berpendidikan.")
+    st.write("**Segmen Tetap:** Dari Ruang Analisis ke Siaran — Tanya Jawab Pendengar Berbasis Data — Glosarium Pasar: satu istilah teknikal atau fundamental per episode.")
+    if st.button("Salin Naskah Episode Hari Ini"):
+        st.success("Naskah siap dibacakan dan direkam. Publikasikan melalui WhatsApp, Email, YouTube, Spotify, atau TikTok setelah proses verifikasi selesai.")
 
-# ============ TAB 3 - SURFING JADI PANGSA MARKET & KEPUTUSAN ============
+# ============ TAB 3 - PANGSA PASAR & KEPUTUSAN ============
 with tab3:
-    st.subheader("🌍 PANGSA MARKET & RINGKASAN NEWS - Halaman Keputusan")
-    st.write("Halaman ini menyajikan pangsa pasar, ringkasan berita fundamental dan teknikal, serta sintesis kalender perayaan keagamaan — sebagai dasar pengambilan keputusan yang terukur dan bertanggung jawab.")
-    st.write("**A. Pangsa Market - Ke Tiap Sosial Media**")
-    st.write("Kita tidak siaran ke semua orang, tapi ke yang tepat:")
+    st.subheader("🌍 Pangsa Pasar, Ringkasan Berita & Pengambilan Keputusan")
+    st.write("Halaman ini menyajikan pangsa pasar melalui kanal media sosial, ringkasan berita fundamental dan teknikal, serta sintesis kalender perayaan keagamaan — sebagai dasar pengambilan keputusan yang terukur, profesional, dan bertanggung jawab bagi pelaku perdagangan dan masyarakat luas.")
+    st.write("**A. Pangsa Pasar — Distribusi Informasi per Kanal**")
     cols = st.columns(4)
-    cols[0].metric("WhatsApp Group", "Tim Inti", "Observasi mentah + diskusi")
-    cols[1].metric("YouTube / TikTok", "Masyarakat Luas", "Podcast potongan 60 detik")
-    cols[2].metric("Instagram / Threads", "Pelaku Forex", "Infografis ringkasan")
-    cols[3].metric("Email", "Yang Kompeten", "Laporan lengkap PDF")
-    st.write("Aturan share: WhatsApp = mentah & diskusi, Sosmed = ringkasan yang sudah disaring, Email = laporan lengkap + bukti sumber. Tautan dan kata sandi tidak dibagikan melalui kanal publik.")
+    cols[0].metric("WhatsApp", "Tim Internal", "Observasi dan validasi")
+    cols[1].metric("Email", "Mitra Terverifikasi", "Laporan lengkap beserta sumber")
+    cols[2].metric("YouTube / TikTok", "Masyarakat Luas", "Potongan siaran 60 detik")
+    cols[3].metric("Instagram / Threads", "Pelaku Perdagangan", "Infografis ringkasan")
+    st.write("Prinsip distribusi: informasi mentah hanya untuk tim internal. Informasi publik selalu melalui penyaringan, verifikasi, dan penyederhanaan bahasa. Tautan dan kata sandi tidak dibagikan melalui kanal publik.")
     st.divider()
-    st.write("**B. Ringkasan News Hari Ini - Fundamental + Teknikal + Festival**")
+    st.write("**B. Ringkasan Berita — Fundamental, Teknikal, Kebijakan, dan Kalender Perayaan**")
     st.dataframe([
-        {"Kategori":"Fundamental","Berita":"USD CPI / FOMC Speaks","Efek":"Ke USD, GBPUSD, XAUUSD","Sikap":"Tunggu jam rilis"},
-        {"Kategori":"Teknikal","Berita":"GBPUSD Stochastic Oversold 19.77","Efek":"Potensi rebound ke 1.32650","Sikap":"Observasi, bukan langsung BUY"},
-        {"Kategori":"Politik","Berita":"Ketegangan dagang / pidato bank sentral","Efek":"Safe haven XAUUSD naik","Sikap":"Cek fakta, bukan rumor"},
-        {"Kategori":"Hindu - Diwali","Berita":"Permintaan emas India naik","Efek":"XAUUSD + USD/INR volatile","Sikap":"Perhatikan NIFTY & emas"},
-        {"Kategori":"Natal","Berita":"Likuiditas menipis","Efek":"Spread melebar, fake breakout","Sikap":"Kurangi posisi"},
-        {"Kategori":"Imlek","Berita":"Pasar China / HK / SG libur","Efek":"HSI & USD/CNH sepi","Sikap":"Jangan paksa trading"},
-        {"Kategori":"Islam - Lebaran / Isra Miraj","Berita":"THR, mudik, libur bursa ID","Efek":"USD/IDR, IHSG retail","Sikap":"Perhatikan konsumsi"},
+        {"Kategori":"Fundamental — Forex Factory","Informasi":"Kalender ekonomi: CPI, data ketenagakerjaan, suku bunga, risalah bank sentral","Implikasi":"Volatilitas meningkat pada pasangan mata uang terkait","Sikap":"Menunggu konfirmasi setelah rilis data"},
+        {"Kategori":"Teknikal — Grafik Chain MT5 / MT4","Informasi":"GBPUSD H1 di 1.32305; Stochastic (5,3,3) 19.77 — kondisi jenuh jual","Implikasi":"Skenario utama: pemulihan menuju 1.32650; invalidasi di bawah 1.31900","Sikap":"Observasi; tidak mengambil posisi hanya berdasarkan satu indikator"},
+        {"Kategori":"Kebijakan & Politik Internasional","Informasi":"Pernyataan pejabat bank sentral, dinamika pemilu, kebijakan perdagangan, geopolitik","Implikasi":"Peningkatan permintaan aset safe haven, termasuk emas","Sikap":"Memisahkan fakta terverifikasi dari interpretasi dan opini"},
+        {"Kategori":"Hindu — Diwali & Musim Pernikahan, India","Informasi":"Peningkatan permintaan emas fisik dan konsumsi musiman","Implikasi":"Volatilitas XAUUSD, USD/INR, dan indeks NIFTY 50 meningkat","Sikap":"Memantau permintaan musiman dan likuiditas logam mulia"},
+        {"Kategori":"Natal","Informasi":"Likuiditas pasar Barat menipis; aktivitas perdagangan menurun","Implikasi":"Spread melebar; risiko pergerakan harga yang tidak representatif","Sikap":"Mengurangi eksposur; menghindari interpretasi berlebihan"},
+        {"Kategori":"Imlek","Informasi":"Pasar Tiongkok, Hong Kong, dan Singapura libur","Implikasi":"Volume HSI dan USD/CNH menurun","Sikap":"Tidak memaksakan aktivitas perdagangan"},
+        {"Kategori":"Islam — Ramadan, Idul Fitri, Isra Miraj, Idul Adha","Informasi":"Peningkatan konsumsi, mobilitas mudik, dan hari libur bursa Indonesia","Implikasi":"Pergerakan USD/IDR dan sektor konsumsi IHSG","Sikap":"Memperhatikan pola musiman dan kalender bursa"},
+        {"Kategori":"Logam Mulia — XAUUSD","Informasi":"Permintaan musiman, dinamika suku bunga riil, dan sentimen safe haven","Implikasi":"XAUUSD sebagai indikator utama sentimen risiko global","Sikap":"Memantau korelasi dengan USD, suku bunga, dan kalender perayaan"},
     ], hide_index=True, use_container_width=True)
     st.divider()
-    st.write("**C. Pengambilan Keputusan - Biar Tepat, Bukan Nekat**")
-    st.write("Ini tambahan pengalaman yang wajib kita pakai, syst - biar market & kita tidak salah langkah:")
-    st.write("1. **Manajemen Risiko (paling penting):** Tentukan dulu berapa yang rela hilang. Di simulasi: max loss 2% per posisi. Kalau di real, jangan pakai uang dapur / uang sekolah.")
-    st.write("2. **Psikologi:** Pengambilan keputusan yang baik membutuhkan kondisi fisik dan mental yang stabil. Apabila dalam kondisi lelah atau emosional, keputusan sebaiknya ditunda.")
-    st.write("3. **Jurnal:** Setiap keputusan dicatat: kenapa masuk, kenapa keluar, apa yang kita rasakan. Besok kita koreksi dari jurnal, bukan dari ingatan.")
-    st.write("4. **3 Filter Keputusan:** Lolos 3 ini baru boleh bilang 'ini kesimpulan kita': (a) Data dari sumber resmi? (b) Ada batas batalnya? (c) Kita siap kalau salah?")
-    st.write("**Keputusan Hari Ini (Contoh):**")
-    keputusan = st.radio("Keputusan tim hari ini:", ["OBSERVASI DULU - Jangan open posisi", "SIAP-SIAP - Tunggu konfirmasi 1.32650", "TIDAK TRADING - Likuiditas tipis / capek"], index=0)
+    st.write("**C. Kerangka Pengambilan Keputusan — Agar Tepat dan Bertanggung Jawab**")
+    st.write("1. **Manajemen Risiko.** Tentukan terlebih dahulu batas kerugian yang dapat diterima. Dalam simulasi, batas kami adalah maksimal 2% per posisi. Dalam konteks riil, jangan menggunakan dana yang dibutuhkan untuk kebutuhan pokok, pendidikan, maupun kewajiban keuangan lainnya.")
+    st.write("2. **Validasi Berlapis.** Keputusan yang layak disampaikan harus lolos tiga filter: (a) bersumber dari data resmi dan dapat diverifikasi, (b) memiliki skenario utama, skenario alternatif, dan level invalidasi, (c) disertai pernyataan tingkat keyakinan dan risiko.")
+    st.write("3. **Kondisi Pengambilan Keputusan.** Keputusan yang baik membutuhkan kondisi fisik dan mental yang stabil. Apabila dalam kondisi lelah atau emosional, keputusan sebaiknya ditunda. Pasar tidak menghilang; kesempatan untuk melakukan observasi selalu tersedia.")
+    st.write("4. **Dokumentasi dan Evaluasi.** Setiap keputusan dicatat: alasan, data yang digunakan, hasil, dan pembelajaran. Evaluasi dilakukan berdasarkan catatan, bukan berdasarkan ingatan.")
+    st.write("5. **Tanggung Jawab Etis.** Kami tidak menjanjikan hasil, tidak menyembunyikan risiko, dan tidak mendorong audiens untuk mengambil keputusan yang melampaui kapasitas risikonya.")
+    st.write("**Keputusan Tim Hari Ini (Contoh):** Observasi terlebih dahulu. Tidak mengambil posisi baru hingga terdapat konfirmasi yang memadai dan kondisi pasar mendukung analisis yang bertanggung jawab.")
+    keputusan = st.radio("Keputusan tim hari ini:", ["OBSERVASI TERLEBIH DAHULU — Tidak membuka posisi baru", "MENUNGGU KONFIRMASI — Menunggu validasi level 1.32650", "TIDAK MELAKUKAN TRANSAKSI — Likuiditas menipis"], index=0)
     if st.button("Simpan Keputusan"):
-        st.success(f"Keputusan tersimpan: {keputusan}. Ini yang kita beritakan ke Podcast & Pangsa Market. Akurat sebelum cepat.")
+        st.success(f"Keputusan tersimpan: {keputusan}. Keputusan ini yang diberitakan melalui Podcast dan kanal Pangsa Pasar.")
 
 st.divider()
 st.caption("Market Intelligent: Akurat sebelum cepat, hati-hati sebelum ramai. Observasi dulu, baru beritakan.")
