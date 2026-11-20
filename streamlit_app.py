@@ -15,7 +15,7 @@ def check_password():
             st.rerun()
         else:
             st.error("Password salah. Hubungi admin via WhatsApp / Email.")
-    st.caption("Jangan share link + password ini ke orang bengal / publik. Hanya ke orang kompeten yang kamu undang.")
+    st.caption("Tautan dan kata sandi tidak dibagikan melalui kanal publik. Hanya dibagikan kepada mitra yang telah diverifikasi.")
     st.stop()
     return False
 
@@ -26,12 +26,12 @@ st.title("🛡️ PRACTICAL APPLICATION GAME - FOREX MT5")
 st.caption("Market Intelligent | PRIVATE DEMO | Akurat sebelum cepat, hati-hati sebelum ramai. Observasi dulu, baru beritakan.")
 st.warning("⚠️ SIMULASI - VIRTUAL MONEY. Bukan sinyal trading, bukan ajakan trading. Bukan nasihat keuangan.")
 
-tab1, tab2, tab3 = st.tabs(["1. INDEX NEURAL - BENGKEL", "2. PODCAST INTELLIGENT MARKET", "3. PANGSA MARKET & KEPUTUSAN"])
+tab1, tab2, tab3 = st.tabs(["1. INDEX NEURAL - RUANG ANALISIS", "2. PODCAST INTELLIGENT MARKET", "3. PANGSA PASAR & KEPUTUSAN"])
 
 # ============ TAB 1 - NEURAL TETAP ============
 with tab1:
-    st.subheader("INDEX NEURAL - Ruang Rakit Alat")
-    st.write("Di sini kita rakit, simak, pahami, dan prediksi. Bukan tempat siaran, tapi tempat kerja.")
+    st.subheader("INDEX NEURAL - Ruang Analisis")
+    st.write("Ruang kerja internal untuk merakit, menguji, dan memvalidasi instrumen analisis. Hasil yang telah terverifikasi di sini, kemudian disampaikan melalui Podcast Intelligent Market.")
     c1, c2 = st.columns([1,2])
     with c1:
         st.write("**Market Watch - MT5 Mirror**")
@@ -44,7 +44,7 @@ with tab1:
         ], hide_index=True)
         st.write("**Indikator:** MA, RSI, MACD, Bollinger, Fibonacci, Stochastic (5,3,3) 19.77 / 15.14 = OVERSOLD")
         st.write("**Fundamental:** Forex Factory Calendar - CPI, NFP, Suku Bunga, FOMC Minutes")
-        st.write("**Gosip Politik Internasional:** Pidato FOMC / ECB / BOE, Pemilu, Perang Dagang, Sanksi, Geopolitik")
+        st.write("**Dinamika Kebijakan dan Politik Internasional:** Pidato FOMC / ECB / BOE, Pemilu, Perang Dagang, Sanksi, Geopolitik")
     with c2:
         st.write("**Chart GBPUSD H1 - Grafik Chain**")
         st.line_chart([1.3281,1.3260,1.3220,1.3190,1.3210,1.3240,1.3265,1.32305])
@@ -62,7 +62,7 @@ with tab2:
     st.write("**Format Acara (setiap episode 10-15 menit):**")
     st.write("1. **Pembuka (2 menit):** Halo, ini Market Intelligent. Hari ini kita observasi apa?")
     st.write("2. **Berita Utama (5 menit):** 1 berita fundamental + 1 teknikal + 1 politik. Sebut sumbernya: Forex Factory + MT5.")
-    st.write("3. **Cerita Manusia (3 menit):** Si Pengeluh, Si Gembira, Si Sehari-hari - kenapa market gerak dari sisi manusia. Misal: Lebaran THR telat, Diwali beli emas.")
+    st.write("3. **Dimensi Perilaku dan Kalender Perayaan (2 menit):** Pembahasan perilaku pasar dalam konteks perayaan keagamaan dan musim — Diwali dan musim pernikahan di India, Natal, Imlek, Ramadan, Idul Fitri, Isra Miraj, dan Idul Adha.")
     st.write("4. **Penutup + Keputusan (2 menit):** Jadi kesimpulan kita apa? Observasi dulu, baru putuskan. Bukan ajakan trading.")
     st.divider()
     st.write("**Episode Terbaru - Contoh Script:**")
@@ -78,7 +78,7 @@ with tab2:
 # ============ TAB 3 - SURFING JADI PANGSA MARKET & KEPUTUSAN ============
 with tab3:
     st.subheader("🌍 PANGSA MARKET & RINGKASAN NEWS - Halaman Keputusan")
-    st.write("Dulu Surfing Game untuk main-main. Sekarang jadi halaman paling penting: di mana pasar kita, berita apa yang paling ngaruh, dan keputusan apa yang tepat.")
+    st.write("Halaman ini menyajikan pangsa pasar, ringkasan berita fundamental dan teknikal, serta sintesis kalender perayaan keagamaan — sebagai dasar pengambilan keputusan yang terukur dan bertanggung jawab.")
     st.write("**A. Pangsa Market - Ke Tiap Sosial Media**")
     st.write("Kita tidak siaran ke semua orang, tapi ke yang tepat:")
     cols = st.columns(4)
@@ -86,7 +86,7 @@ with tab3:
     cols[1].metric("YouTube / TikTok", "Masyarakat Luas", "Podcast potongan 60 detik")
     cols[2].metric("Instagram / Threads", "Pelaku Forex", "Infografis ringkasan")
     cols[3].metric("Email", "Yang Kompeten", "Laporan lengkap PDF")
-    st.write("Aturan share: WhatsApp = mentah & diskusi, Sosmed = ringkasan yang sudah disaring, Email = laporan lengkap + bukti sumber. Jangan pernah share link + password ke publik.")
+    st.write("Aturan share: WhatsApp = mentah & diskusi, Sosmed = ringkasan yang sudah disaring, Email = laporan lengkap + bukti sumber. Tautan dan kata sandi tidak dibagikan melalui kanal publik.")
     st.divider()
     st.write("**B. Ringkasan News Hari Ini - Fundamental + Teknikal + Festival**")
     st.dataframe([
@@ -102,7 +102,7 @@ with tab3:
     st.write("**C. Pengambilan Keputusan - Biar Tepat, Bukan Nekat**")
     st.write("Ini tambahan pengalaman yang wajib kita pakai, syst - biar market & kita tidak salah langkah:")
     st.write("1. **Manajemen Risiko (paling penting):** Tentukan dulu berapa yang rela hilang. Di simulasi: max loss 2% per posisi. Kalau di real, jangan pakai uang dapur / uang sekolah.")
-    st.write("2. **Psikologi:** Jangan trading pas capek, marah, atau habis ngepel 100m2. Capek = keputusan jelek. Istirahat dulu, market tidak lari kemana-mana.")
+    st.write("2. **Psikologi:** Pengambilan keputusan yang baik membutuhkan kondisi fisik dan mental yang stabil. Apabila dalam kondisi lelah atau emosional, keputusan sebaiknya ditunda.")
     st.write("3. **Jurnal:** Setiap keputusan dicatat: kenapa masuk, kenapa keluar, apa yang kita rasakan. Besok kita koreksi dari jurnal, bukan dari ingatan.")
     st.write("4. **3 Filter Keputusan:** Lolos 3 ini baru boleh bilang 'ini kesimpulan kita': (a) Data dari sumber resmi? (b) Ada batas batalnya? (c) Kita siap kalau salah?")
     st.write("**Keputusan Hari Ini (Contoh):**")
