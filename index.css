@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --bg:#070b14; --surface:#0d1424; --surface2:#121d33; --line:#223252; --text:#eaf0ff; --muted:#9aa9c6;
+  --primary:#22d3ee; --gold:#f5c451; --green:#2fd07d; --red:#ff5a6e; --blue:#5b8cff;
+  --cream:#f7ead0; --paper:#fff8e6; --ink:#241a0d;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#070b14; --surface:#0d1424; --text:#eaf0ff; }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:'Space Grotesk',system-ui,sans-serif}
+h1,h2,h3,.serif{font-family:'Fraunces',Georgia,serif}
+button{font-family:inherit}
+.no-scrollbar::-webkit-scrollbar{display:none}
+input,select,textarea{font-family:inherit}
